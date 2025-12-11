@@ -234,7 +234,7 @@ db.patient_summaries.find({"_id": "patient_123"})
 
 | Team Member | Primary Responsibilities |
 |-------------|--------------------------|
-| **[Teammate Name]** | SQL pipeline design, data cleaning, complex analytics, stored procedures, triggers, views |
+| **Amy Zhou** | SQL pipeline design, data cleaning, complex analytics, stored procedures, triggers, views |
 | **Suhail Ahmed** | MongoDB design, Redis implementation, ETL pipeline, Flask dashboard, system integration, performance optimization |
 
 **Dataset**: Synthea Synthetic Health Data (2017-2019, 1000 patients)
@@ -297,13 +297,3 @@ db.patient_summaries.find({"_id": "patient_123"})
 
 *For questions or support, contact the project team.*
 ```
-
-**Copy and paste this entire text into your README.md file.** It includes:
-1. Complete installation instructions
-2. What each team member did
-3. Business insights
-4. Technical details
-5. Troubleshooting guide
-6. Ready for presentation status
-
-This is **production-ready documentation** that tells the complete story of your project.
