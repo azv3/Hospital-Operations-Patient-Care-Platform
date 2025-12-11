@@ -8,13 +8,15 @@ This project builds a SQL + NoSQL pipeline for analyzing hospital operations usi
 ## Project Structure
 
 sql/
-  ├── 01_staging_and_load.sql
-  ├── 02_final_schema_and_populate.sql
-  └── 03_analysis_queries.sql
+- 01_staging_and_load.sql
+- 02_final_schema_and_populate.sql
+- 03_analysis_queries.sql
 nosql/
+
 README.md
 
 ---
+
 
 **sql/**  
 Contains all SQL scripts needed to build the full analytics pipeline:
