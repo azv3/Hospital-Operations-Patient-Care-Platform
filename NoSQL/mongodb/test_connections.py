@@ -8,7 +8,7 @@ try:
     mysql_conn = mysql.connector.connect(
         host='localhost',
         user='root',
-        password='Suhailahmed7(',    # First try empty password
+        password='',    # First try empty password
         database='hospital_operations'
     )
     print("✅ MySQL Connection: SUCCESS")
@@ -29,4 +29,5 @@ print("💡 If MySQL failed, try these common passwords:")
 print("   - '' (empty)")
 print("   - 'root'") 
 print("   - 'password'")
+
 print("   - '1234'")
