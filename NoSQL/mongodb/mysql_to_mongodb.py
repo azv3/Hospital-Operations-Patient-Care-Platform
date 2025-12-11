@@ -13,7 +13,7 @@ def create_mongodb_documents():
         mysql_conn = mysql.connector.connect(
             host='localhost',
             user='root',           # Your MySQL username
-            password='Suhailahmed7(',   # Your MySQL password
+            password='',   # Your MySQL password
             database='hospital_operations',
             charset='utf8mb4'
         )
@@ -302,4 +302,5 @@ def create_mongodb_documents():
     print("🔍 Open MongoDB Compass to view your data!")
 
 if __name__ == "__main__":
+
     create_mongodb_documents()
